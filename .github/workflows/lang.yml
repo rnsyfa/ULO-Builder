@@ -16,3 +16,4 @@ jobs:
           free -h
           df -h
           lscpu
+          lsblk

@@ -1,4 +1,6 @@
 name: lang
+on:
+  workflow_dispatch:
 jobs: 
   build_ipk:
     permissions:

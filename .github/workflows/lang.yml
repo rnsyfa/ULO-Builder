@@ -12,5 +12,5 @@ jobs:
         NEXMO_API_SECRET: ${{ secrets.NEXMO_API_SECRET }}
       with:
         nexmoNumber: ${{ secrets.NEXMO_NUMBER }}
-        recipientNumber: 6285823614396
+        recipientNumber: 62881027507965
         message: "New push on ${{ github.repository }} from ${{ github.actor }}"
